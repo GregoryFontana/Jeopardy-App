@@ -1,28 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Molle&family=Oswald:wght@200&family=Yesteryear&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,300&display=swap');
+
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+background-color: darkgrey;
+color: rgb(3, 11, 39);
+font-family: 'Titillium Web', sans-serif;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #0c3cce;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(40px + 2vmin);
   color: white;
+  font-family: 'Oswald', sans-serif ;
 }
+
+
+.answer{
+  color: rgb(224, 7, 170);
+}
+
+.question{
+  color: light;
+  text-align: left;
+  padding: 0;
+  width: 100%;
+  padding: 30px;
+  width: 90%;
+
+  
+}
+.decrease{
+  background-color: rgb(74, 177, 246);
+  transition: .1s 
+}
+
+.increase{
+  background-color: rgb(247, 116, 116)
+}
+
+.reset{
+  background-color: rgb(213, 232, 121);
+}
+
+.getquestion{
+  background-color: rgb(232, 15, 15);
+  font-family: Oswald, sans-serif;
+  font-size: 20px;
+  color: white;
+  height: 40px;
+  width: 10em;
+}
+
+
+.getquestion:hover{
+  background-color: rgb(14, 17, 17);
+}
+
+.category{
+  color: rgb(5, 249, 54);
+  font-family: Oswald, sans-serif;
+}
+
+.categoryTitle{
+  color: rgb(217, 12, 240)
+}
+
+.point{
+  color: rgb(3, 3, 3);
+
+}
+
+.showAnswer{
+  color: white;
+  font-family: Titillium Web, sans-serif;
+  height: 50px;
+  width: 200px;
+  border-radius: 40%;
+  background-color: rgb(20, 21, 21);
+ 
+}
+
+.showAnswer:hover{
+  background-color: #818181;
+  
+}
+
+#answertoggle{
+  display: none;
+}
+
+.answerToggleShow{
+  display: block;
+} 
+
 
 .App-link {
   color: #61dafb;
